@@ -1,0 +1,29 @@
+# RENAME THIS FILE TO `gradle.properties` and add path to keystore, alias and password
+# THE ORIGINAL FILE ISN'T PUBLISHED BECAUSE IT CONTAINS SECRET PASSWORDS AND ALIAS
+
+# IDE (e.g. Android Studio) users:
+# Gradle settings configured through the IDE *will override*
+# any settings specified in this file.
+
+# For more details on how to configure your build environment visit
+# http://www.gradle.org/docs/current/userguide/build_environment.html
+
+android.useDeprecatedNdk=true
+RELEASE_STORE_FILE=***PATH-TO-RSG-Chess.keystore
+RELEASE_KEY_ALIAS=***
+RELEASE_STORE_PASSWORD=***
+RELEASE_KEY_PASSWORD=***
+
+android.enableAapt2=false
+
+# Specify sdk path if needed in local.properties
+# Download the google-services.json in the 'app' directory
+
+# AndroidX package structure to make it clearer which packages are bundled with the
+# Android operating system, and which are packaged with your app's APK
+# https://developer.android.com/topic/libraries/support-library/androidx-rn
+android.useAndroidX=true
+# Automatically convert third-party libraries to use AndroidX
+android.enableJetifier=true
+# Version of flipper SDK to use with React Native
+FLIPPER_VERSION=0.33.1
